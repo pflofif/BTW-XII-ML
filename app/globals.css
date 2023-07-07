@@ -9,6 +9,7 @@
 }
 
 body {
+  overflow: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, var(--background-start-color), var(--background-end-color));
 }

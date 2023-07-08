@@ -8,8 +8,15 @@
   --background-end-color: #d1affa;
 }
 
+html,
 body {
+  height: 100%;
+  margin: 0;
   overflow: hidden;
+}
+
+body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, var(--background-start-color), var(--background-end-color));
+  overflow-y: auto;
 }

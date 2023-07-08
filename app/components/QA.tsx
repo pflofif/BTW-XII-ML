@@ -24,7 +24,7 @@ const QAs: QAelement[] = [
 ]
 const QA = () => {
     return (
-        <div className="p-8 sm:px-8 lg:px-24 lg:py-24">
+        <div className="p-4 sm:px-4 lg:px-16 lg:py-16">
             <div className="grid gap-y-4">
                 {
                     QAs.map((qa, index) => {

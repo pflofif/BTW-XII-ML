@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center lg:p-24 p-8 ">
       <h1 className='text-2xl'>Привіт Привіт, тут зібрані мотиваційні листи Боді Вівчара на проєкт BTW XII!</h1>
-      <h2 className='text-l'>(Для початку прочитай про моє ставлення до БТВ![нажми на кнопку!])</h2>
+      <h2 className='text-l'>(Всюди де є стрілочки - це кнопки на які ТРЕБА нажимати)</h2>
 
       <div className='pt-8'></div>
       <MlPreview
